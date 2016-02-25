@@ -49,7 +49,7 @@ echo "Done!\n";
 # For bwc dependent files
 echo "Building up the project directory...\n";
 mkdir bwc&&cd $_;
-npm install grunt jit-grunt autoprefixer-core phantomjs-prebuilt phantomjs jit-grunt karma jasmine-core grunt-contrib-jshint grunt-contrib-concat grunt-contrib-cssmin grunt-contrib-uglify grunt-contrib-watch grunt-contrib-connect grunt-filerev grunt-usemin jshint-stylish time-grunt --save-dev;
+npm install grunt jit-grunt autoprefixer-core phantomjs-prebuilt phantomjs jit-grunt karma jasmine-core grunt-contrib-jshint grunt-contrib-concat grunt-contrib-cssmin grunt-contrib-uglify grunt-contrib-watch grunt-contrib-connect grunt-filerev grunt-usemin grunt-text-replace jshint-stylish time-grunt --save-dev;
 echo "Done!\n";
 
 chsh -s /usr/bin/zsh;
