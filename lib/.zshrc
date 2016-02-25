@@ -1,4 +1,4 @@
-DEFAULT_USER="Daniel"
+DEFAULT_USER="$USER"
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
