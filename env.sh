@@ -53,6 +53,17 @@ mkdir bwc&&cd $_;
 npm install grunt jit-grunt autoprefixer-core phantomjs-prebuilt phantomjs jit-grunt karma jasmine-core grunt-contrib-jshint grunt-contrib-concat grunt-contrib-cssmin grunt-contrib-uglify grunt-contrib-watch grunt-contrib-connect grunt-filerev grunt-usemin grunt-text-replace jshint-stylish time-grunt --save-dev;
 echo "Done!";
 
+# For copying fonts
+echo "Copying fonts.."
+font_dir="$HOME/.local/share/fonts";
+mkdir -p $font_dir;
+mv monaco.ttf $font_dir;
+mv Menlo\ Regular\ for\ Powerline.otf $font_dir;
+if command -v fc-cache @>/dev/null ; then
+    fc-cache -f $font_dir
+fi
+echo "Done!";
+
 chsh -s /usr/bin/zsh;
 echo "Please install the font manually.";
 echo "And you may like to re-log in to see what happened now!!";
