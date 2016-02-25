@@ -1,0 +1,18 @@
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ci = commit
+	bd = branch -D
+        amend = commit --amend
+[user]
+	name = YourName 
+	email = youremail@email.com 
+[color]
+	ui = auto
+	diff = auto
+	branch = auto
+	status = auto
+
+[core]
+	excludesfile = $HOME/.gitignore_global

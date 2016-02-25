@@ -93,7 +93,7 @@ alias upg='sudo apt-get upgrade'
 alias sv="cd ~/bwc && grunt serve &"
 
 
-export EDITOR="/usr/local/bin/subl -w"
+export EDITOR="/usr/bin/subl -w"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export NVM_DIR="$HOME/.nvm"
