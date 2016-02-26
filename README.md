@@ -14,6 +14,8 @@ The following tools will be installed automatically:
 * zsh
 * vim
 * Sublime Text 2
+* OpenJDK 7
+* Android SDK Tools
 * nvm
 * NodeJS 4.x
 * rvm
@@ -27,6 +29,7 @@ The following tools will be installed automatically:
 * PhantomJS
 * jshint
 * Karma
+* Cordova
 
 
 Please manually set 'Menlo Regular for Powerline' as the default font for your terminal.
