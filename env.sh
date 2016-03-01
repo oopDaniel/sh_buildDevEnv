@@ -7,10 +7,11 @@ echo "Installing necessary tools...";
 add-apt-repository ppa:webupd8team/sublime-text-2;
 apt-get update;
 apt-get upgrate;
-apt-get install -y zsh libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev sublime-text vim git openjdk-7-jdk;
+apt-get install -y zsh libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev sublime-text vim git openjdk-7-jdk libgl1-mesa-dev:i386;
 curl -L http://install.ohmyz.sh | sh;
 ln -s /opt/sublime_text_2/sublime_text /usr/bin/subl;
 mv ./lib/.gitconfig ~/.gitconfig;
+mv ./lib/.vimrc ~/.vimrc;
 
 apt-get autoremove;
 apt-get clean;
@@ -78,8 +79,6 @@ echo "And you may like to re-log in to see what happened now!!";
 
 
 
-
 wget
 rename
 export "PATH=$PATH:$HOME/android-sdk/tools"
-vimrc
