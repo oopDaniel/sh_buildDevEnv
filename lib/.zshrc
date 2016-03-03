@@ -90,7 +90,7 @@ alias hisg='history | grep'
 alias ins='sudo apt-get install'
 alias upd='sudo apt-get update'
 alias upg='sudo apt-get upgrade'
-alias sv="cd ~/bwc && grunt serve &"
+alias sv="grunt serve &"
 
 
 export EDITOR="/usr/bin/subl -w"
@@ -99,3 +99,5 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 source $HOME/.rvm/scripts/rvm
+
+export "PATH=$PATH:$HOME/android-sdk/tools:$HOME/abdroid-sdk/build-tools"
