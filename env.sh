@@ -12,6 +12,7 @@ curl -L http://install.ohmyz.sh | sh;
 ln -s /opt/sublime_text_2/sublime_text /usr/bin/subl;
 mv ./lib/.gitconfig ~/.gitconfig;
 mv ./lib/.vimrc ~/.vimrc;
+mv ./lib/kolor.vim ~/.vim/colors/kolor.vim;
 
 apt-get autoremove;
 apt-get clean;
